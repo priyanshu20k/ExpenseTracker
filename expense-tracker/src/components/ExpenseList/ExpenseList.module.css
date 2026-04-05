@@ -1,0 +1,18 @@
+.expenseWrapper h2{
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom:10px;
+}
+
+.expenseList{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:24px;
+    color: black;
+}
+
+@media(max-width:767px){
+    .expenseWrapper h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+  --color-primary-bg:#3B3B3B;
+  --color-secondary-bg:#626262;
+  --color-primary-text:#FFFFFF;
+  --font-heading:"Ubuntu", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+}
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-primary-bg);
+}
+
+h1,h2,h3,h4,h5,h6,button{
+  font-family: var(--font-heading);
+}
+
+
+p{
+  font-family: var(--font-body);
+}
+

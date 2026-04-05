@@ -1,0 +1,35 @@
+.card{
+    background-color: #9B9B9B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 45px 20px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+
+.cardTitle{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.cardTitle span{
+    font-weight: 700;
+}
+
+.income{
+    color:#9DFF5B;
+}
+.expense{
+    color:#F4BB4A;
+}
+
+@media(max-width:767px){
+    .card{
+        padding:35px 10px;
+    }
+    .cardTitle{
+        font-size:24px;
+    }
+}
