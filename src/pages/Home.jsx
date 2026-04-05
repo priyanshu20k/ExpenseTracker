@@ -55,13 +55,13 @@ const Home = () => {
     let travelSpends = 0;
 
     expenseData.forEach((item) => {
-      if (item.category == "food") {
+      if (item.category === "food") {
         foodSpends += Number(item.price);
       }
-      if (item.category == "entertainment") {
+      if (item.category === "entertainment") {
         entertainmentSpends += Number(item.price);
       }
-      if (item.category == "travel") {
+      if (item.category === "travel") {
         travelSpends += Number(item.price);
       }
     });

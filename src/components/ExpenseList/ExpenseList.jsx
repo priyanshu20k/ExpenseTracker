@@ -16,7 +16,7 @@ const ExpenseList = ({ expenseData, setExpenseData, balance, setBalance }) => {
   const handleDelete = (id) => {
     const deleteItem = expenseData.find((item) => item.id === id);
     setBalance((prev) => prev + Number(deleteItem.price));
-    setExpenseData((prev) => prev.filter((item) => item.id != id));
+    setExpenseData((prev) => prev.filter((item) => item.id !== id));
   };
 
   const handleEdit = (id) => {

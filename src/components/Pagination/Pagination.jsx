@@ -10,7 +10,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
     }
 
     const handleNextPage = ()=>{
-        if(currentPage != totalPages){
+        if(currentPage !== totalPages){
             setCurrentPage(prev => prev+1)
         }
     }

@@ -10,9 +10,9 @@ const ExpenseCard = ({ details, handleDelete ,handleEdit }) => {
     <div className={Styles.card}>
       <div className={Styles.cardWrapper}>
         <div className={Styles.cardIcon}>
-          {details.category == "food" && <PiPizza />}
-          {details.category == "entertainment" && <PiGift />}
-          {details.category == "travel" && <BsSuitcase2 />}
+          {details.category === "food" && <PiPizza />}
+          {details.category === "entertainment" && <PiGift />}
+          {details.category === "travel" && <BsSuitcase2 />}
         </div>
         <div className={Styles.cardDetails}>
           <h5>{details.title}</h5>
